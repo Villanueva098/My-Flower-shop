@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indoor Plants</title>
+  <meta name="description" content="Explore a variety of indoor plants for your home or office.">
+  <style>
+    body {
+      background: linear-gradient(to right, #d9f1e2, #f0fff0);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #2c3e50;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #27ae60;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #2e8b57;
+      margin-top: 40px;
+    }
+
+    p {
+      font-size: 16px;
+      max-width: 600px;
+      margin: 10px auto;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      margin-top: 10px;
+    }
+
+    .plant-card {
+      background-color: #ffffffcc;
+      border-radius: 20px;
+      padding: 20px;
+      margin: 30px auto;
+      max-width: 650px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>Indoor Plants</h1>
+
+  <div class="plant-card">
+    <h2>Peace Lily</h2>
+    <p>The Peace Lily, known for its elegant white flowers, is a popular choice for indoor spaces.</p>
+    <p><strong>Price:</strong> $15</p>
+    <img 
+      src="https://edube.org/uploads/media/default/0001/04/spathiphyllum-peace-lily.jpg" 
+      alt="Peace Lily">
+  </div>
+
+  <div class="plant-card">
+    <h2>Zanzibar Gem</h2>
+    <p>The Zanzibar Gem, with its glossy green foliage, is a low-maintenance indoor plant perfect for beginners.</p>
+    <p><strong>Price:</strong> $20</p>
+    <img 
+      src="https://edube.org/uploads/media/default/0001/04/zamioculcas-zanzibar-gem.jpg" 
+      alt="Zanzibar Gem">
+  </div>
+</body>
+</html>
